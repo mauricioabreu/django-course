@@ -1,5 +1,4 @@
-Django Course
-=============
+# Django Course
 
 A Django course.
 
@@ -8,11 +7,11 @@ A Django course.
 This course is for programmers...or not.
 For those who know Django...or do not.
 
-Through this course you will learn a little bit about webservers, webframeworks and other cool stuff.
+Through this course you will learn a little bit about web servers, web frameworks and other cool stuff.
 
 ## What will you learn?
 
-You will learn a lot of new concepts (if you are a new web programmer) here. Most of them are attached to any webframework so your knowledge will be used outside of Django too.
+You will learn a lot of new concepts (if you are a new web programmer) here. Most of them are attached to any web framework so your knowledge will be used outside of Django too.
 
 ## What will you be able to make?
 
