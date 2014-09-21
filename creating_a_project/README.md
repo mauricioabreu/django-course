@@ -70,4 +70,4 @@ Django comes with an internal test server. This server is mostly used to test yo
 
     python manage.py runserver
 
-Enter the address `http://localhost:8000/` in your browser. You should see a message like 'It worked!'.
+Enter the address `http://localhost:8000/` in your browser. You should see a message like 'It worked!'. To stop the web server press CTRL + C at the same time.
