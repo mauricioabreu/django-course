@@ -9,7 +9,7 @@ Open your preferred console and type the following command:
 
 Where startproject is the command to create a project and news is the name of the project.
 
-For this course we are going to create a simple News portal.
+For this course we are going to create a simple project like [hackernews](https://news.ycombinator.com/).
 
 After executing the command above you can see that a structure of files and folders were created. Your structure should look like this:
 
@@ -23,9 +23,13 @@ After executing the command above you can see that a structure of files and fold
 
 
 `news` is the root folder project.
+
 `manage.py` is a management command script responsible for things like starting a new app, executing tests, running a shell interface and more daily commands.
+
 `settings.py` file is responsible for storing all your project settings like databases used, caching engines, internationalization, third-party settings and even your custom settings.
+
 `urls.py` is a file containing all url patterns. Whenever you request a URL to your project it checks if the pattern existis in urls.py.
+
 `__init__.py` is a empty file used to indicate that the folder news is actually a package.
 
 ## Creating the database
@@ -71,3 +75,5 @@ Django comes with an internal test server. This server is mostly used to test yo
     python manage.py runserver
 
 Enter the address `http://localhost:8000/` in your browser. You should see a message like 'It worked!'. To stop the web server press CTRL + C at the same time.
+
+Before diving into Django and coding we should clarify what is a web server and why every web programmer should know a little bit about it.
